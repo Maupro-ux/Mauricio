@@ -1,4 +1,4 @@
-/* ===== VARIABLES GLOBALES ===== */
+
 :root {
     --color-primario: #6e0d25;
     --color-secundario: #c9a227;
@@ -8,7 +8,6 @@
     --espaciado: 16px;
 }
 
-/* ===== RESET BÁSICO ===== */
 * {
     margin: 0;
     padding: 0;
@@ -20,13 +19,12 @@ body {
     color: var(--color-texto);
     background-color: var(--color-fondo);
     line-height: 1.6;
-    /* Flexbox para mantener el footer siempre abajo */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-/* ===== ENCABEZADO Y NAVEGACIÓN ===== */
+
 header {
     background-color: var(--color-primario);
     color: #fff;
@@ -40,7 +38,7 @@ header h1 {
 }
 
 nav {
-    background-color: #4a0919; /* Tono más oscuro del primario para contraste */
+    background-color: #4a0919; 
 }
 
 nav ul {
@@ -63,7 +61,7 @@ nav ul li a:hover {
     color: var(--color-secundario);
 }
 
-/* ===== CONTENIDO PRINCIPAL ===== */
+/* PRINCIPAL  */
 main {
     max-width: 1200px;
     margin: 0 auto;
